@@ -56,7 +56,7 @@ public class CalculoControllerTest {
                 .andExpect(jsonPath("$.media").value(2.0))
                 .andExpect(jsonPath("$.mediana").value(2.0));
     }
-
+//teste
     @Test
     public void testCalcular_Erro400() throws Exception {
         List<Integer> lista = Arrays.asList(1, 2);
